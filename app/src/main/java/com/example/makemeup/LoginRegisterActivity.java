@@ -52,7 +52,7 @@ public class LoginRegisterActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 // Use the Builder class for convenient dialog construction
-                Intent in = new Intent(getApplicationContext(),ContactActivity.class);
+                Intent in = new Intent(getApplicationContext(),LocationActivity.class);
                 startActivity(in);
                 finish();
 

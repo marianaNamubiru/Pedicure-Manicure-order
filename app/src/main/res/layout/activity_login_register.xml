@@ -19,44 +19,51 @@
         tools:layout_editor_absoluteY="53dp">
 
 
-        <ImageView
-            android:id="@+id/back"
-            android:layout_width="35dp"
-            android:layout_height="107dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="14dp"
-            android:layout_weight="1"
-            android:clickable="true"
-            app:srcCompat="@drawable/iconback" />
-
-
-        <EditText
-            android:id="@+id/contact"
-            android:layout_width="309dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="40dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Please enter your contact"
-            android:textColor="@color/black"
-            tools:layout_editor_absoluteX="317dp"
-            tools:layout_editor_absoluteY="165dp" />
-
     </LinearLayout>
 
     <Button
         android:id="@+id/submit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SUBMIT"
+        android:layout_width="202dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
         android:clickable="true"
         android:gravity="center_horizontal"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="212dp"
-        tools:ignore="MissingConstraints" />
+        android:text="SUBMIT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Please enter your contact"
+        app:layout_constraintBottom_toBottomOf="@id/contact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/back" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="63dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@id/contact"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iconback" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
