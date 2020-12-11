@@ -21,8 +21,8 @@ public class HomeActivity extends AppCompatActivity {
         phone.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 // Use the Builder class for convenient dialog construction
-                Intent in = new Intent(getApplicationContext(),LoginRegisterActivity.class);
-                startActivity(in);
+                Intent intent = new Intent(getApplicationContext(),SignUpActivity.class);
+                startActivity(intent);
                 finish();
 
             }

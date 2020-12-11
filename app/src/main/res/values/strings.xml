@@ -4,5 +4,8 @@
     <string name="are_you_ready">Are you ready?</string>
     <string name="order_the_best_makeup_artists_around_you_to_get_you_fixed">Order the best makeup artists around you to get you fixed</string>
     <string name="welcome_to_make_me_up">WELCOME TO MAKE ME UP</string>
-    <string contact ="please_enter_your_phone_number" name="Contact">Please enter your phone number</string>
+    <string name="Contact" contact="please_enter_your_phone_number">Please enter your phone number</string>
+    <string name="hello">hello</string>
+    <string name="get_location">get LOCATION</string>
+    <string name="Pick_Image">pickimage</string>
 </resources>
